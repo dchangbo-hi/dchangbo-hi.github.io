@@ -1,8 +1,0 @@
-{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
-{{ define "main" }}
-<article>
-    <h1>{{ .Title }}</h1>
-    <p class="meta"><time>{{ .Date.Format "2006-01-02" }}</time></p>
-    <div class="content">{{ .Content }}</div>
-</article>
-{{ end }}
