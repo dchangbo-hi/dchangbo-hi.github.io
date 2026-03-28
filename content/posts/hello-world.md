@@ -1,6 +1,6 @@
 +++
 title = 'Hello World'
-date = 2026-03-28T11:03:34+08:00
+date = 2026-03-28T11:30:00+08:00
 draft = false
 tags = ['hugo', 'blog']
 +++

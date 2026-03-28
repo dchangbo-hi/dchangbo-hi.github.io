@@ -3,7 +3,6 @@
 {{ if .Site.Params.description }}
 <p>{{ .Site.Params.description }}</p>
 {{ end }}
-
 <h2>Recent Posts</h2>
 <ul>
     {{ range first 10 .Site.RegularPages }}
